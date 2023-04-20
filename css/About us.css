@@ -1,34 +1,116 @@
-a{ color:black;
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  width: 100%;
+}
+
+
+a { color:black;
     text-decoration:none;
-     font-size:2em;
-     padding: 25px;
-     }
-     
-     .tabs{
+     font-size:1.1em;
+     padding-left: 90px;
+  }
+
+.tabs{
          display: flex;
-         padding-left: 150px;
+         padding-left: 15px;
      }
-     .content{
-         padding-left: 42pc;
-     }
- .footer{
-   padding-left: 5pc;
- }
+
+     
+
+
+.content{
+ height: 100%;
+ width: 100%;
+ align-items: center;
+ position: absolute;
+ justify-content: center;
+ padding-left: 20pc;
+ padding-top: 20pc;
+ font-size: 60px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgb(23, 166, 238);
+
+}
+ 
  .trades{
-   background-color: rgba(212, 211, 211, 0.918);
-   border-radius: 3pc;width: 300px;height: 350px;
-   margin-left: 1pc;
+   background-color: rgba(121, 118, 118, 0.918);
+   margin-left: 10pc;
    font-size: 20px;
+   border-radius: 1pc;width: 70pc;
+ }
+ h2{
+  padding-left: 5pc;
+
+ }
+   .footer{
+    text-align: center;
+    padding-top: 110px;
+    padding-left: 20pc;
+  }
+  .whole{
+      background-color:rgba(7, 64, 151, 0.918);
+      display: flex;
+      justify-content: space-between;
+    padding-right: 5pc;
+    padding-left: 2pc;
+    }
+  
+  .search{
+    padding-top: 1.3pc;
+    justify-content: space-between;
+    display: flex;
+    
+  }
+  .contact{
    
- }
- h3{
-   padding-left: 2pc;
-   padding-top: 2pc;
- }
- .whole{
-   background-color:rgba(212, 211, 211, 0.918);
-   border-radius: 1pc;
- }
- .contact{
-   padding-left: 2pc;
- }
+    padding-left: 6pc;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+.path{
+  width: 100%;
+  margin: 0%;
+}
+input{
+  justify-content: space-between;
+  border-style: solid;
+  background-color: #8a8af1;
+}
+button{
+  border-style: solid;
+  background-color: #8ae2f1;
+}  
+
+.container {
+  width: 100%;
+  margin: 0%;
+}
+.description{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10pc;
+  padding-left: 1pc;
+}
+h3{
+text-align: right;
+font-size: larger;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: blue;
+}
+.Gallery{
+  
+}
+.leftcontent{
+text-align: left;
+}
+.search-container{
+  justify-content: space-between;
+  padding-left: 110px;
+}
