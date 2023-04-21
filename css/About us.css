@@ -9,7 +9,7 @@ body{
 }
 
 
-a { color:black;
+a { color:#0e0e0d;
     text-decoration:none;
      font-size:1.1em;
      padding-left: 90px;
@@ -38,19 +38,28 @@ a { color:black;
 }
  
  .trades{
-   background-color: rgba(121, 118, 118, 0.918);
-   margin-left: 10pc;
-   font-size: 20px;
-   border-radius: 1pc;width: 70pc;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px
  }
+    
+   
+   
+   
+  
+   
+ 
  h2{
-  padding-left: 5pc;
+  padding-left: 30pc;
+  color: blue;
+  padding-bottom: 5pc;
 
  }
    .footer{
     text-align: center;
     padding-top: 110px;
     padding-left: 20pc;
+    color: white;
   }
   .whole{
       background-color:rgba(7, 64, 151, 0.918);
@@ -60,12 +69,11 @@ a { color:black;
     padding-left: 2pc;
     }
   
-  .search{
-    padding-top: 1.3pc;
-    justify-content: space-between;
-    display: flex;
-    
-  }
+    .search{
+      padding-top: 1.3pc;
+      justify-content: space-between;
+      display: flex;
+    }
   .contact{
    
     padding-left: 6pc;
@@ -81,22 +89,24 @@ a { color:black;
 input{
   justify-content: space-between;
   border-style: solid;
-  background-color: #8a8af1;
+  background-color: #d5d5d8;
+  padding: 4.5px;
+  border-radius: 8px;
 }
 button{
   border-style: solid;
-  background-color: #8ae2f1;
-}  
+  background-color: #e6eaeb;
+  border-radius: 5px;
+}
 
 .container {
   width: 100%;
   margin: 0%;
 }
 .description{
-  display: flex;
   justify-content: space-between;
-  padding-right: 10pc;
-  padding-left: 1pc;
+  padding-left: 2pc;
+  
 }
 h3{
 text-align: right;
@@ -104,13 +114,43 @@ font-size: larger;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: blue;
 }
-.Gallery{
+label{
+  padding-left: 1.5pc;
+  border-radius: 1pc;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: blue;
   
 }
 .leftcontent{
-text-align: left;
+text-align: justify;
+font-size: large;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
 }
 .search-container{
   justify-content: space-between;
   padding-left: 110px;
+}
+.display{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto; 
+  width: 95%;
+}
+h1{
+  padding-left:10pc;
+  color:  #eaeaf0;
+}
+.second{
+  padding-top: 10pc;
+ 
+}
+.magic{
+  color: #eaeaf0;
+}
+h5{
+  font-size: larger
+
 }

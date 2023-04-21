@@ -1,37 +1,137 @@
-a{ color:black;
-    text-decoration:none;
-     font-size:2em;
-     padding: 25px;
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
   }
   
-     .tabs{
-         display: flex;
-     }
+  body{
+    margin: 0;
+    width: 100%;
+  }
+  
+  
+  a { color:black;
+      text-decoration:none;
+       font-size:1.1em;
+       padding-left: 90px;
+    }
+  
+  .tabs{
+           display: flex;
+           padding-left: 15px;
+       }
+  
+       
+  
+  
+  .content{
+   height: 100%;
+   width: 100%;
+   align-items: center;
+   position: absolute;
+   justify-content: center;
+   padding-left: 15pc;
+   padding-top: 20pc;
+   font-size: 60px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(246, 249, 250);
+  
+  }
+
+h2{
+ padding-left: 5pc;
+
+}
+  .footer{
+   text-align: center;
+   padding-top: 110px;
+   padding-left: 20pc;
+   color:white;
+ }
+ .whole{
+    background-color:rgba(7, 64, 151, 0.918);
+    display: flex;
+    justify-content: space-between;
+  padding-right: 5pc;
+  padding-left: 2pc;
+  }
+ 
+   .search{
+     padding-top: 1.3pc;
+     justify-content: space-between;
+     display: flex;
+   }
+ .contact{
+  
+   padding-left: 6pc;
+   font-size: larger;
+   font-family: Arial, Helvetica, sans-serif;
+   
+ }
+
+.path{
+ width: 100%;
+ margin: 0%;
+}
+input{
+ justify-content: space-between;
+ border-style: solid;
+ background-color: #d5d5d8;
+ padding: 4.5px;
+ border-radius: 8px;
+}
+button{
+ border-style: solid;
+ background-color: #e6eaeb;
+ border-radius: 5px;
+}
+
+.container {
+ width: 100%;
+ margin: 0%;
+}
+.description{
+ justify-content: space-between;
+ padding-left: 2pc;
+ 
+}
+.search-container{
+    justify-content: space-between;
+    padding-left: 110px;
+  }
+  h3{
+    text-align: right;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    }
+    .that{
+      padding-left: 5pc;
+      background-color:rgba(32, 29, 236, 0.918);
+      border-radius: 3pc;width:40%;height:80%;
+      margin: 10px auto;
+    
+    }
+    .arrow{
+      padding-left: 10pc;
+    }
+    h6{
+      background-color: hsl(30, 36%, 96%);
+      border-radius: 1pc;width: 17pc;height: 1pc;
+    }
+    .wifi{
+      padding-left: 10pc;
+    }
+    .magic{
+      color: #eaeaf0;
+    }
+    h1{
+      color: white;
+    }
+
 
      
-     .wifi{
-         padding-left: 100px;
-     }
-     .icons:{
-         padding-left: 100px;
-         
-     }
-     .tabs{
-         display: flex;
-         padding-left: 150px;
-     }
-
-     .content{
-         padding-left: 40pc;
-         border-radius: 15px;
-     }
-     .footer{
-         padding-left: 5pc;
-     }
-     .whole{
-   background-color:rgba(212, 211, 211, 0.918);
-   border-radius: 1pc;
- }
- .contact{
-   padding-left: 2pc;
- }
+    
+    
+   
+    
+ 

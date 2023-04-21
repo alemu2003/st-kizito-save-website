@@ -41,6 +41,7 @@ a { color:rgb(4, 2, 12);
   text-align: center;
   padding-top: 110px;
   padding-left: 20pc;
+  color: white;
 }
 .whole{
   background-color:rgba(7, 64, 151, 0.918);
@@ -114,10 +115,12 @@ a { color:rgb(4, 2, 12);
     border-style: solid;
     background-color: #eaeaf0;
     padding:4.5px;
+    border-radius: 8px;
   }
   button{
     border-style: solid;
     background-color: #e6eaeb;
+    border-radius: 5px;
   }
     
 
@@ -139,4 +142,10 @@ color: blue;
 .search-container{
   justify-content: space-between;
   padding-left: 110px;
+}
+.magic{
+  color: #eaeaf0;
+}
+h1{
+  color:  #eaeaf0;
 }
