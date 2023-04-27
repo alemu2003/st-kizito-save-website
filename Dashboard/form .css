@@ -1,0 +1,21 @@
+.rightcontent{
+      font-size: 2pc;
+      background: hsl(320, 2%, 71%);
+      width: 13pc;
+      height: 20pc;
+      color: hwb(240 5% 94%);
+      font-style: italic;
+      margin-left: 30pc;
+      border-radius: 1pc;
+      padding-left: 5pc;
+      margin-bottom: 40px;
+    }
+    input{
+      justify-content: space-between;
+      border-style: solid;
+      background-color: #aea7e7;
+      padding: 4.5px;
+      border-radius: 8px;
+      font-style: italic;
+     }
+    

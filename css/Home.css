@@ -149,3 +149,7 @@ color: blue;
 h1{
   color:  #eaeaf0;
 }
+@media  and (max-width: 1050px) {
+  .tabs {
+  font-size: 18px;
+}
