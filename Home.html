@@ -9,7 +9,30 @@
 	
 		
 </head>
-<body>	
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-sharp fa-solid fa-arrow-up"></i><br>Back to Top</button>
+	<script>
+		// Get the button
+		let mybutton = document.getElementById("myBtn");
+		
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+		
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+		</script>
+
 <div class="container">
 	<div class="tabs">
 		<h3><i class="fa-solid fa-globe"></i>ST KIZITO SAVE T.S.S</h3> 
@@ -20,7 +43,7 @@
 		<h4><a href="admin.html">Admin</a></h4><br><br>
 		<div class="search-container">
 		<div class="search">			
-		  <input type="text" placeholder="Search........................." name="search">
+		  <input type="text" placeholder="Searching........................." name="search">
 			  <button type="submit"><i class="fa fa-search"></i></button>
 			
 		</div>
@@ -31,19 +54,21 @@
 		<h1>WELCOME TO SAINT KIZITO SAVE</h1>
 		<h1>TECHNICAL SECONDARY SCHOOL</h1>
 	</div>
-	<img src="imgs\bg1.jpg">
+	<div class="tee">
+		<img src="imgs\fr.png" height="100%" width="100%">
+	</div>
 	<div class="box">
 		<div class="all">
 			<div class="title">
 				<h2>Our Missions</h2>
 			</div>
-			<ul>
-			<li>Success</li><br>
-			<li>Searching</li><br>
-			<li>Playing</li><br>
-			<li>Innovation</li><br>
-			<li>creativity</li><br>
-			<li>work us team</li><br>
+			<ul type="square" >
+				Success&nbsp;&nbsp;<i class="fa-solid fa-check"></i><br><br>
+				Searching&nbsp;<i class="fa-solid fa-magnifying-glass"></i><br><br>
+				Praying&nbsp;<i class="fa-solid fa-person-praying"></i><br><br>
+			Innovation&nbsp;<i class="fa-solid fa-check"></i><br><br>
+			creativity&nbsp;<i class="fa-solid fa-check"></i><br><br>
+			work us team&nbsp;<i class="fa-solid fa-thumbs-up"></i><br><br>
 			</ul>
 		</div>
 		<div class="also">
@@ -51,13 +76,13 @@
 				<h2>Our Values</h2>
 			</div>
 			<div class="values">
-				<ul>
-					<li>Displine</li><br>
-					<li>Hard working</li><br>
-					<li>Nationalism</li><br>
-					<li>knowledge</li><br>
-					<li>skills</li><br>
-					<li>time management</li><br>
+				<ul type="square">
+					Displine&nbsp;<i class="fa-solid fa-thumbs-up"></i><br><br>
+					Hard working&nbsp;<i class="fa-solid fa-person-walking-luggage"></i><br><br>
+					Nationalism&nbsp;<i class="fa-solid fa-check"></i><br><br>
+					knowledge<i class="fa-solid fa-check"></i><br><br>
+					skills&nbsp;<i class="fa-solid fa-thumbs-up"></i><br><br>
+					time management&nbsp;<i class="fa-solid fa-thumbs-up"></i><br><br>
 				</ul>
 			</div>
 		</div>

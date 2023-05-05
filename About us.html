@@ -10,6 +10,29 @@
 	
 </head>
 <body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-sharp fa-solid fa-arrow-up"></i><br>Back to Top</button>
+	<script>
+		// Get the button
+		let mybutton = document.getElementById("myBtn");
+		
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+		
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+		</script>
+
   <div class="container">
     <div class="tabs">
       <h3><i class="fa-solid fa-globe"></i>ST KIZITO SAVE T.S.S</h3>  
@@ -20,7 +43,7 @@
       <h4><a href="admin.html">Admin</a></h4><br><br>
       <div class="search-container">
       <div class="search">			
-        <input type="text" placeholder="Search........................." name="search">
+        <input type="text" placeholder="Searching........................." name="search">
           <button type="submit"><i class="fa fa-search"></i></button>
         
       </div>
@@ -32,26 +55,26 @@
     <h4>"Skills for a better destiny"</h4>
   </div>
   <div class="path">
-    <img src="imgs\home.jpg" width="100%" height="100%">
+    <img src="imgs\ger.png" width="100%" height="100%">
   </div>
   <div class="class">
     <div class="display">
       <div class="Gallery">
-	     <li><img src="imgs\ll.png" width="400" height="310"></li>
+	     <img src="imgs\ll.png" width="400" height="310">
         <label>SOFTWARE TRAINEES</label>
-        <li><img src="imgs\ch.jpg" width="400" height="310"></li>
+        <img src="imgs\ch.jpg" width="400" height="310">
         <label>SCHOOL'S CHAPEL</label>
-        <li><img src="imgs\ss.png" width="400" height="310"></li>
-        <label>OUR TRAINEES</label>
-        <li><img src="imgs\aa.jpg" width="400" height="310"></li>
+        <img src="imgs\ss.png" width="400" height="310">
+        <label>OUR TRAINEES</label><br><br>
+        <img src="imgs\aa.jpg" width="400" height="310">
         <label>SAINT MONFORT</label>
-        <li><img src="imgs\uu.png" width="400" height="310"></li>
+        <img src="imgs\uu.png" width="400" height="380">
         <label>OUR TRAINEES AND TRAINERS</label>
         
 	    </div>
       <div class="description">
         <div class="leftcontent">
-          <p class="lf"><h5><i>IN FACT</i></h5> St kizito is located at save.it is Few miles North of the  Town Huye
+          <p class="lf"><h5>IN FACT</h5> St kizito is located at save.it is Few miles North of the  Town Huye
           and in West of Gisagara District of Southern Province
           Rwanda .before 1962,saint  
           Kizito save TVET school was an orphanage for children mullattoes of save
@@ -64,20 +87,20 @@
           This vocational school trains up to1025  motivated boys and girls,
           training the skills necessary to find a job or progress to a university on a government scholarship.
           Specialties include  Civil construction,software development,electronicsand service,multimedia,and industrial Electricity And Other trades  listed below.<br>
-          <h5><i>IMPORTANT MISSION</i></h5>
+          <h5>IMPORTANT MISSION</h5>
           it is place characterised by dwelling,several school,church ,Health centre and other facilitiesoperated by Religious Group for the purposeof providing charitable sevice and propagate religion.<br>
            <br> At the same period the bishop invited van dale Brothers to open 
           the centre pof technicians.<br> According to the official letter wrote by the ministry 
           of education on 22nd of december,1972,the centre opened and received the 
           first student on 2nd of january,1973 at Save. <br>
-          <h5><i>EXCITING PRIORITIES</h5></i>
+          <h5>EXCITING PRIORITIES</h5>
           Our new educational mission is to become a top trade school in Rwanda, 
           with an emphasis on English proficiency and “self-learning,”
           so that our trainees can self-adapt to a rapidly modernizing  Rwandan and African economy.
           We are currently rated by the Rwandan Government to be out of 97 technical secondary schools in Rwanda.
           Our next goal is to be in the top one.<br>
           
-          <h5><i>FABULOUS OPPORTUNITY</i></h5>
+          <h5>FABULOUS OPPORTUNITY</h5>
           To Educate For The Future
           It takes a team to build a great school. The base is already there: a competent teaching staff,
           a motivated administration, and
@@ -85,19 +108,19 @@
           
           SAINT KIZITO SAVE T.S.S mission is to support Rwanda’s growth and to continue  vision in one of the poorest areas of Rwanda,
           by educating young people in the skills necessary for 100% of them to find a job or enroll in a university.<br>
-          <h5><i>IMPORTANT TRAINING INITIATION</i></h5>
+          <h5>IMPORTANT TRAINING INITIATION</h5>
           SAINT KIZITO SAVE T.S.S administration has implemented a significant new education initiative,
           designed to catapult the school into the ranks of the three top professional  schools in Rwanda.
           We are quite proud that trainees enrollment at SAINT KIZITO SAVE T.S.S.<br>
-          <h5><i>IMPROVEMENT OF ENGLISH SKILLS</i></h5>
+          <h5>IMPROVEMENT OF ENGLISH SKILLS</h5>
           A keypriority for economic development in Rwanda is the continuing transition from French to English speaking. 
           It is also a key priority for ETSK that is now being supported by a number of important initiatives.<br>
-          <h5><i>TRAINING FOR JOB</i></h5>
+          <h5>TRAINING FOR JOB</h5>
           SAINT KIZITO SAVE T.S.S educates students in the three professions that offer the most opportunity for employment in Rwanda, 
           Africa:  Builiding Construction,Software development,elecronics and industial Electricity .
           Each course follows strict government education guidelines, 
           with a new emphasis on practical skills and work internships.<br>
-          <h5><i>SPORTS</i></h5>
+          <h5>SPORTS</h5>
           sports and athletics are important education activities, building character, teamwork, and cooperation.
           The school provides excellent sports facilities with daily sports schedules for the following:
           football (soccer), volleyball, basketball, and handball.
@@ -109,36 +132,37 @@
     </div>
             <div class="trades">
               <div class="first">
-    	          <h2>Programs and courses</h2>
-    	            <ul>
-    		        <li>Tvet Certificate 3 in Masonry()</li><br>
-                <li>Tvet Certificate 4 in Masonry()a</li><br>
-                <li>Tvet Certificate 5 in Masonry()</li><br>
-                <li>Tvet Certificate 3 in Domestic Electricity()</li><br>
-                <li>Tvet Certificate 4 in Industrial Electricity()</li><br>
-                <li>Tvet Certificate 5 in Industrial Electricity()</li><br>
-                <li>Tvet Certificate 3 in Carpentry()</li><br>
-                <li>Tvet Certificate 4 in Carpentry()</li><br>
-                <li>Tvet Certificate 5 in Carpentry()</li><br>
-                <li>Tvet Certificate 3 in Computer Application()</li><br>
-                <li>Tvet Certificate 3 in Software Development()</li><br>
-                <li>Tvet Certificate 4 in Software Development()</li><br>
-                <li>Tvet Certificate 5 in Software Development()</li><br>
+    	          <h2>PROGRAMS AND COURSES</h2>
+    	            <ol type="I">
+    		        Tvet Certificate 3 in Masonry()<br>
+                Tvet Certificate 4 in Masonry()<br>
+                Tvet Certificate 5 in Masonry()<br>
+                Tvet Certificate 3 in Domestic Electricity()<br>
+                Tvet Certificate 4 in Industrial Electricity()<br>
+                Tvet Certificate 5 in Industrial Electricity()<br>
+                Tvet Certificate 3 in Carpentry()<br>
+                Tvet Certificate 4 in Carpentry()<br>
+                Tvet Certificate 5 in Carpentry()<br>
+                Tvet Certificate 3 in Computer Application()<br>
+                Tvet Certificate 3 in Software Development()<br>
+                Tvet Certificate 4 in Software Development()<br>
+                Tvet Certificate 5 in Software Development()<br>
               </div>
+              <ol type="I">
                 <div class="second">
-                  <li>Tvet Certificate 3 in building Construction()</li><br>
-                  <li>Tvet Certificate 4 in building Construction()</li><br>
-                  <li>Tvet Certificate 5 in building Construction()</li><br>
-                  <li>Tvet Certificate 3 in public work()</li><br>
-                  <li>Tvet Certificate 4 in public work()</li><br>
-                  <li>Tvet Certificate 5 in public work()</li><br>
-                  <li>Tvet Certificate 3 in wood design()</li><br>
-                  <li>Tvet Certificate 4 in wood design()</li><br>
-                  <li>Tvet Certificate 3 in Electrical Technology()</li><br>
-                  <li>Tvet Certificate 4 in Electrical Technology()</li><br>
-                  <li>Tvet Certificate 3 in computer system and architecture()</li><br>
-                  <li>Tvet Certificate 4 in computer system and architecture()</li><br>
-                  <li>Tvet Certificate 5 in computer system and architecture()</li><br>
+                  Tvet Certificate 3 in building Construction()<br>
+                  Tvet Certificate 4 in building Construction()<br>
+                  Tvet Certificate 5 in building Construction()<br>
+                  Tvet Certificate 3 in public work()<br>
+                  Tvet Certificate 4 in public work()<br>
+                  Tvet Certificate 5 in public work()<br>
+                  Tvet Certificate 3 in wood design()<br>
+                  Tvet Certificate 4 in wood design()<br>
+                  Tvet Certificate 3 in Electrical Technology()<br>
+                  Tvet Certificate 4 in Electrical Technology()<br>
+                  Tvet Certificate 3 in computer system and architecture()<br>
+                  Tvet Certificate 4 in computer system and architecture()<br>
+                  Tvet Certificate 5 in computer system and architecture()<br>
                   </ul>
                 </div>
               </div>

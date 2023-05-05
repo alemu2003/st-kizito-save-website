@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     box-sizing: border-box;
   }
   
@@ -9,10 +9,11 @@
   }
   
   
-  a { color:black;
+  a { color:#6b6bfcea;
       text-decoration:none;
-       font-size:1.1em;
+       font-size:1.2em;
        padding-left: 90px;
+       font-family: 'Times New Roman', Times, serif;
     }
   
   .tabs{
@@ -25,12 +26,12 @@
         padding-left: 20pc;
       }
       .whole{
-        background-color:rgba(7, 64, 151, 0.918);
+        background-color:#131a24ea;
         display: flex;
         justify-content: space-between;
-         padding-right: 5pc;
         padding-left: 2pc;
-        }
+        padding-right: 5pc;
+      }
       
       .search{
         padding-top: 1.3pc;
@@ -43,28 +44,24 @@
         padding-left: 6pc;
         font-size: larger;
         font-family: Arial, Helvetica, sans-serif;
-        
       }
-      button{
-        border-style: solid;
-        background-color: #e6eaeb;
-        border-radius: 5px;
-      }
+     
       
-      
-      .container {
+      .container1 {
         width: 100%;
         margin: 0%;
       }
-    
-    
-      input{
+      input:hover{
         justify-content: space-between;
         border-style: solid;
-        background-color: #d5d5d8;
-        padding: 4.5px;
-        border-radius: 8px;
+        padding:4.5px;
+        font-style:  bold;
       }
+      button:hover{
+        background-color: white;
+      }
+    
+      
     .search-container{
         justify-content: space-between;
         padding-left: 110px;
@@ -76,11 +73,10 @@
    align-items: center;
    position: absolute;
    justify-content: center;
-   padding-left: 20pc;
-   padding-top: 10pc;
+   padding-left: 14pc;
+   padding-top: 20pc;
    font-size: 60px;
-   font-family: Arial, Helvetica, sans-serif;
-   color: rgb(209, 213, 216);
+   font-family: 'Times New Roman', Times, serif;
   
   }
 
@@ -95,25 +91,33 @@
         color: white;
       }
       
-      .way{
+      .way:hover{
         width: 100%;
         margin: 0%;
+        height: 800px;
+        transform:scale(1.10);
+        filter:grayscale(0%);
+        box-shadow:0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+        transition:transform 500ms ease-in;
+       filter:grayscale(100%);
       }
      
  .contact{
    padding-left: 2pc;
  }
  h3{
-    text-align: right;
-    font-size: larger;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue;
-    }
+  text-align: right;
+  font-size: larger;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#131a24ea;
+  }
     .magic{
       color: #eaeaf0;
     }
     h1{
-      color:  #eaeaf0;
+      color:  #6b6bfcea;
+      font-family: 'Times New Roman', Times, serif;
+      padding-left: 10pc;
     }
     .gallery {
       display: flex;
@@ -127,6 +131,14 @@
   }
   .small-img {
       flex: 1 0 100px;
+      pointer-events: none;
+
+  transform: translateZ(-15px);
+  transform-style: preserve-3d;
+
+  transition-property: transform, opacity;
+  transition-duration: 0.5s, 0.4s;
+  transition-timing-function: cubic-bezier(.65,.01,.15,1.33);
   }
   .medium-img {
       flex: 1 0 400px;
@@ -141,4 +153,77 @@
       align-items: center;
     }
   }
+
+  /**Typeo CSS Start**/
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+  * {
+  box-sizing: border-box;
+  }
+  body {
+  font-family: "Poppins", sans-serif;
+  color: #444;
+  box-sizing: border-box;
+  margin: 0px;
+  }
+  img {
+  max-width: 100%;
+  }
+  .container {
+  width: 500px;
+  width: 100%;
+  padding:0%;
+  margin-left:  0%;
+  }
+  /**Typeo CSS End**/
+  .card-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin:1.25rem;
+  padding:0.3125rem;
+  /*border:2px solid #FFFFFF;*/
+  }
+  .card{
+  flex:1 0 16rem;
+  margin:0.625rem;
+  border:2px solid #FFFFFF;
+  overflow: hidden;
+  }
+  .card-image{
+  display:block;
+  height:21.875rem;
+  background-size:cover;
+  box-shadow:0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+  transition:transform 500ms ease-in;
+  filter:grayscale(100%);
+  }
+  .card-image:hover{
+  transform:scale(1.10);
+  filter:grayscale(0%);
+  }
+
+
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #6b6bfcea;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: hsl(0, 98%, 52%);
+  }
+
+
+  
+
  
