@@ -50,6 +50,7 @@
       .container1 {
         width: 100%;
         margin: 0%;
+        background-image: url("../imgs/umu.png");
       }
       input:hover{
         justify-content: space-between;
